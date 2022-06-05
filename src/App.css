@@ -1,0 +1,90 @@
+html, body {
+    background-color:#fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    height: 50px;
+}
+
+.header2{
+    align-items: center;
+    display: flex;
+    gap: 10%;
+    justify-content:center;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.botonBuscador{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left:20px;
+}
+.header2{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenedorArticulo{
+    position: static;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.Articulo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+.contenedorCEPAL{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-radius: 20px;
+    border: 1px solid;
+    background-image: url("../src/Images/background.jpg");
+}.Formulario{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+.BotonEnviarComentario{
+    height:42px;
+    width:200px;
+    justify-content:center;
+    background-color:transparent;
+    border-color: #da5757;
+    border-radius: 3px;
+    margin-right: 650px;
+    color:#da5757;
+    margin-left: 150px;
+}
+.BotonEnviarComentario:hover{
+    background-color:#da5757;
+    color:white;
+}
+.Footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#d5d5d5;
+}
+.SocialMedia{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.SocialMedia a:hover{
+    border-radius: 10px;
+    background-color: yellow;
+}
